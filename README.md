@@ -1,7 +1,12 @@
 # border-1px
 ## 手写思路：
 
+- @charset
+  
+  - 参考：[@charset](https://developer.mozilla.org/en-US/docs/Web/CSS/@charset)，查看页面的[Examples](https://developer.mozilla.org/en-US/docs/Web/CSS/@charset#Examples)
+  
 - 共有边框的几种class
+  
   - border
   - border-top
   - border-right
@@ -12,8 +17,8 @@
   - border-topleft
   - border-rightbottom
   - border-rightleft
-  - border-bottomleft
-
+- border-bottomleft
+  
 - 设置class的属性
 
   ```css
@@ -53,4 +58,3 @@
   - -webkit -moz 和resolution: dpi 级别一样，谁在后面声明，谁生效
   - 目前不会用到不加前缀的 device-pixel-ratio 和 resolution: dppx
   - 注意`transform`的坐标轴
-
